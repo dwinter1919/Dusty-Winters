@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="exercise 2.css">
+<title>Exercise 3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Table<br>of<br>Contents</br></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#step1" 
+onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">1. Get Familiar</a> 
+    <a href="#step2" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">2. Avoid Swimming</a> 
+    <a href="#step3" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">3. Wait Until Night</a> 
+    <a href="#step4" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">4. Stay Out of the Water</a> 
+    <a href="#step5" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">5. Avoid Making a Fuss</a> 
+    <a href="#step6" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">6. Create a Diversion</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span><b>Table<br>of<br>Contents</br></span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>How to</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Safely Swim with Piranhas.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="images/image_1.jpeg" style="width:100%" onclick="onClick(this)" id="step1" alt="Get familiar with piranha territory.<br/>Piranhas are freshwater fish and live only in South America (although occasionally a stray pet piranha turns up in a river elsewhere). Residing almost exclusively in still or slow-moving streams or lakes,they usually die in cold water.">
+      <img src="images/image_2.jpeg" style="width:100%" onclick="onClick(this)" id="step2" alt="Avoid swimming with piranhas in the dry season.<br/>Piranhas are usually mild-mannered and skittish. They rarely, if ever, attack a much larger animal unless they are starving. Food supplies are at their lowest during the dry season (which lasts from around April to September) when water levels fall dramatically and food is less plentiful, so avoid entering piranha-infested waters during these times. If you're in doubt about whether the dry season is still underway, ask local residents if it's safe to swim. Be wary of ponds that seem to be a product of the movements of a river. Rivers slowly move back and forth and often shrink and grow with the rain, leaving temporary ponds behind. Fish in these waters are isolated from other water sources and are essentially condemned to death; they could jump and attack you out of sheer desperation if you stand close enough.">
+      <img src="images/image_3.jpeg" style="width:100%" onclick="onClick(this)" id="step3" alt="Wait until night to enter the water.<br/>If, during the dry season, you must venture into water inhabited by piranhas, wait until darkness before attempting to traverse without a boat. Piranhas hunt in the day and sleep at night. If awakened from their slumber while it's dark, piranhas will generally flee, but it's safest not to disturb them.
+	Remember that other predators, such as caimans, are more active at night. If attempting to cross a waterway with a diversity of organisms, the dangers of traveling at night may far outweigh the benefits.">
+    </div>
+
+    <div class="w3-half">
+      <img src="images/image_4.jpeg" style="width:100%" onclick="onClick(this)" id="step4" alt="Stay out of the water if you have an open, bleeding cut. Piranhas sense blood in the water and are more likely to attack a larger animal if they think it's wounded.
+	You should also avoid carrying raw meat into the water, and wash your hands before entering if you have recently handled raw meat. (Don't wash where piranhas reside).
+	Steer clear of waters below bird nesting areas, docks where fish are gutted, and garbage dumps; you don't want the piranhas to associate you with the blood that could come from these sources.">
+      <img src="images/image_5.jpeg" style="width:100%" onclick="onClick(this)" id="step5" alt="Avoid making a fuss.<br/>Recent studies suggest that desperate piranhas are attracted more by activity than by blood. When crossing water, minimize your movement and swim or walk with smooth, fluid motions. Avoid talking, and don't use flashlights or lanterns when night-crossing.">
+      <img src="images/image_6.jpeg" style="width:100%" onclick="onClick(this)" id="step6" alt="Create a diversion.<br/>As a last-ditch effort, try to create a diversion by releasing an animal carcass or a substantial quantity of raw meat downstream from your desired crossing point. Should such action become necessary, keep in mind that piranhas can strip animals to the bone in a matter of minutes or even seconds, so you'll want to cross very quickly before they sense you.">
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Intro.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Piranhas, the "wolves of the water," are known for their ability to strip an animal to the bone in mere seconds.</p>
+    <p>They aren't actually as dangerous to humans as you'd think, especially if you swim with them during the wet season when they have plenty of food. Still, South American shoals of piranhas can be dangerous when food is scarce. If you're going to take a dip in the Amazon, read on to see how you can swim peacefully with piranhas.
+    </p>
+  </div>
+  
+  <!-- Designers -->
+
+
+  <!-- The Team -->
+
+
+  <!-- Packages / Pricing Tables -->
+
+
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red">
+    <form action="/action_page.php" target="_blank">
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right"> <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity"></a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+<div class="col-section">
+	<dl class="list">
+	  <dd class="list-item">
+  </div>
+</section>
+<footer class="footer main-text main-text-small">
+  <a class="footer-links link-home" href="nav/home/index.html">home</a>
+  <a class="footer-links link-forward" href="https://blurredcrimes.tumblr.com/">forward</a>
+  <a class="footer-links link-backward" href="exercise 5/objects2.html">backward</a>
+  <a class="footer-links link-exercises" href="index.html">exercises</a>
+  <a class="footer-links link-projects" href="projects/index.html">projects</a>
+  <a class="footer-links link-reading" href="reading/Earnest Emulations.pdf">reading</a>
+  <div class="scrunch" aria-hidden="true"></div>
+</footer>
+</body>
+</html>

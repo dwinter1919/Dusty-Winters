@@ -1,0 +1,889 @@
+body {
+    background-color:
+	rgb(157,82,238);
+}
+.parent {
+	border-style: hidden;
+	border-color: rgb(220,112,23);
+	margin-top: 200px;
+	padding: 40px;
+	width: 1000px;
+	position:absolute;	
+}
+
+.child {
+	margin: 0 auto;
+	padding:20px;
+	width: 200px;
+	position: absolute;
+	color: rgb(255,50,23);
+}
+
+.child-three {
+	font-size:350px;
+	font-family:helvetica;
+	line-height: 0px;
+	margin: 0 auto;
+	width: 200px;
+	position: absolute;
+	letter-spacing: 0px;
+  opacity: 25%;
+}
+
+.child-two {
+	font-family:avenir;
+	letter-spacing: 90px;
+	margin: 0 auto;
+	padding:10px;
+	top: 40px;
+	width: 200px;
+	position: absolute;
+  opacity: 25;
+}
+
+.child-one {
+	font-family:avenir;
+	letter-spacing: 90px;
+	margin: 0 auto;
+	padding:20px;
+	top: 0px;
+	width: 200px;
+	position: absolute;
+  color: rgb(78,44,111);
+}
+
+
+@keyframes bounceIn {
+	0% {
+	  transform: scale(0.1);
+	  opacity: 0;
+	}
+	30% {
+	  transform: scale(1.2);
+	  opacity: 1;
+	}
+	50% {
+	  transform: scale(1);
+	}
+  }
+  
+  
+  
+  #div {
+	animation: bounceIn 2s;
+  }
+  
+  
+  @keyframes bounceIn {
+	0% {
+	  transform: scale(0.1);
+	  opacity: 0;
+	}
+	30% {
+	  transform: scale(1.2);
+	  opacity: 1;
+	}
+	50% {
+	  transform: scale(1);
+	}
+  }
+  
+  #div1 {
+	  animation: bounceIn 3s;
+  }
+  
+  @keyframes bounceIn {
+	0% {
+	  transform: scale(0.1);
+	  opacity: 0;
+	}
+	30% {
+	  transform: scale(1.2);
+	  opacity: 1;
+	}
+	50% {
+	  transform: scale(1);
+	}
+  }
+  
+  #div2 {
+	  animation: bounceIn 4s;
+  }
+  
+  @keyframes bounceIn {
+	0% {
+	  transform: scale(0.1);
+	  opacity: 0;
+	}
+	30% {
+	  transform: scale(1.2);
+	  opacity: 1;
+	}
+	50% {
+	  transform: scale(1);
+	}
+  }
+  
+  #div3 {
+	  animation: bounceIn 5s;
+  }
+  
+  
+  @keyframes bounceIn {
+	0% {
+	  transform: scale(0.1);
+	  opacity: 0;
+	}
+	30% {
+	  transform: scale(1.2);
+	  opacity: 1;
+	}
+	50% {
+	  transform: scale(1);
+	}
+  }
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+
+
+#div {
+  animation: bounceIn 2s;
+}
+
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div1 {
+	animation: bounceIn 3s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div2 {
+	animation: bounceIn 4s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div3 {
+	animation: bounceIn 5s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div {
+  animation: bounceIn 2s;
+}
+
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div {
+	transform: rotateX(200deg);
+  }
+
+#div1 {
+	animation: bounceIn 3s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div1 {
+	transform: rotateX(200deg);
+  }
+
+#div2 {
+	animation: bounceIn 4s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div2 {
+	transform: rotateX(200deg);
+  }
+
+#div3 {
+	animation: bounceIn 5s;
+}
+
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div3 {
+	transform: rotateX(200deg);
+  }
+
+#div4 {
+	animation: bounceIn 6s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div4 {
+	transform: rotateX(200deg);
+  }
+
+#div5 {
+	animation: bounceIn 7s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div5 {
+	transform: rotateX(200deg);
+  }
+
+#div6 {
+	animation: bounceIn 8s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div6 {
+	transform: rotateX(200deg);
+  }
+
+#div7 {
+	animation: bounceIn 9s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div7 {
+	transform: rotateX(200deg);
+  }
+
+#div8 {
+	animation: bounceIn 10s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div8 {
+	transform: rotateX(200deg);
+  }
+
+#div9 {
+	animation: bounceIn 11s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div9 {
+	transform: rotateX(200deg);
+  }
+
+#div10 {
+	animation: bounceIn 12s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div10 {
+	transform: rotateX(200deg);
+  }
+
+#div11 {
+	animation: bounceIn 13s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div11 {
+	transform: rotateX(200deg);
+  }
+
+#div12 {
+	animation: bounceIn 14s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div12 {
+	transform: rotateX(200deg);
+  }
+
+#div13 {
+	animation: bounceIn 15s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div13 {
+	transform: rotateX(200deg);
+  }
+
+#div14 {
+	animation: bounceIn 16s;
+}
+
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div14 {
+	transform: rotateX(200deg);
+  }
+
+#div15 {
+	animation: bounceIn 17s;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div15 {
+	transform: rotateX(200deg);
+  }
+
+#div16 {
+	animation: bounceIn 18s;
+}
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#div16 {
+	transform: rotateX(200deg);
+  }
+
+#div17 {
+	animation: bounceIn 19s;
+}
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+#div17 {
+	transform: rotateX(200deg);
+  }
+
+#div18 {
+	animation: bounceIn 19s;
+}
+
+#div18 {
+	transform: rotateX(200deg);
+  }
+
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,500");
+
+/* 1. Content elements */
+html {
+	-webkit-text-size-adjust: 100%;
+		-ms-text-size-adjust: 100%;
+}
+
+a {
+	color: inherit;
+	position: relative;
+	border-bottom: 1px solid #222222;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #2AD03D;
+	border-bottom: 1px solid #2AD03D;
+}
+
+::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+:focus {
+	outline: 0;
+}
+
+.main-text {
+	font: 500 20px/1 "Roboto Mono", Helvetica, sans-serif;
+}
+
+.main-text-small {
+	font-size: 15px;
+}
+
+.logo {
+	background: url('../../assets/images/logo.svg') no-repeat;
+	background-position: top left, top left;
+	background-repeat: no-repeat;
+	background-size: auto, auto 100%;
+	width: 42px;
+	height: 50px;
+	padding: 0;
+	margin: 0;
+}
+
+@media (max-width: 600px) {
+	.logo {
+		width: 42px;
+		height: 50px;
+	}
+}
+
+.section {
+	z-index: 1;
+	position: relative;
+	padding: 96px 0 96px 96px;
+	width: calc(100vw - 96px - 7em);
+	display: -webkit-box;
+	display: flex;
+	box-sizing: border-box;
+	min-height: 100vh;
+}
+
+@media (max-width: 1024px) {
+	.section {
+		padding: 48px 0 48px 48px;
+		width: calc(100vw - 48px - 7em);
+	}
+}
+
+@media (max-width: 950px) {
+	.section {
+		padding: 7.5vw;
+		width: 100%;
+	}
+}
+
+@media (max-width: 600px) {
+	.section {
+		display: block;
+		min-height: 0;
+	}
+}
+
+.column-section {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+}
+
+@media (max-width: 600px) {
+	.column-section-main {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		flex-direction: column;
+	}
+}
+
+.section-bio {
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+}
+
+.col-section {
+	width: 100%;
+	max-width: 382px;
+}
+
+@media (max-width: 600px) {
+	.col-section {
+		margin-bottom: 15vw;
+	}
+}
+
+.bio {
+	font-size: 20px;
+	font-weight: 100;
+	margin-bottom: -.45em;
+	max-width: 700px;
+}
+
+@media (max-width: 600px) {
+	.bio {
+		padding-top: 15vw;
+		font-size: 18px;
+	}
+}
+
+.list {
+	margin-top: 3.2em;
+}
+
+.list-item {
+	margin-top: .25em;
+	margin-bottom: 2em;
+}
+
+.list-item:last-child {
+	margin-bottom: -.4em;
+}
+
+.scrunch {
+	z-index: -1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	pointer-events: none;
+}
+
+.scrunch:after {
+	background: #;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.footer {
+	position: fixed;
+	right: 96px;
+	bottom: 92px;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-align: end;
+	align-items: flex-end;
+}
+
+@media (max-width: 1024px) {
+	.footer {
+		right: 48px;
+		bottom: 48px;
+	}
+}
+
+@media (max-width: 950px) {
+	.footer {
+		position: relative;
+		right: auto;
+		bottom: auto;
+		padding: 0 7.5vw 7.5vw;
+		-webkit-box-align: start;
+		align-items: flex-start;
+	}
+}
+
+.footer-links {
+	margin-top: 1em;
+	line-height: 1;
+}
+
+@media (max-width: 950px) {
+	.footer-links {
+		display: inline;
+	}
+}
+
+@media (hover: hover) {
+	.footer-links:nth-child(odd):hover~.scrunch {
+		background-color: #;
+	}
+
+	.footer-links:nth-child(2n):hover~.scrunch {
+		background-color: #;
+	}
+
+	.link-email:hover~.scrunch:after {
+		-webkit-animation: one 1s .25s linear forwards;
+				animation: one 1s .25s linear forwards;
+	}
+
+	.link-behance:hover~.scrunch:after {
+		-webkit-animation: two 1s .25s linear forwards;
+				animation: two 1s .25s linear forwards;
+	}
+
+	.link-dribbble:hover~.scrunch:after {
+		-webkit-animation: three 1s .25s linear forwards;
+				animation: three 1s .25s linear forwards;
+	}
+
+	.link-linkedin:hover~.scrunch:after {
+		-webkit-animation: four 1s .25s linear forwards;
+				animation: four 1s .25s linear forwards;
+	}
+
+	.link-twitter:hover~.scrunch:after {
+		-webkit-animation: five 1s .25s linear forwards;
+				animation: five 1s .25s linear forwards;
+	}
+
+	.link-instagram:hover~.scrunch:after {
+		-webkit-animation: six 1s .25s linear forwards;
+				animation: six 1s .25s linear forwards;
+	}
+
+	.link-site:hover~.scrunch:after {
+		-webkit-animation: seven 1s .25s linear forwards;
+				animation: seven 1s .25s linear forwards;
+	}
+}
